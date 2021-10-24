@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Task</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <button class="again">Again</button>
+                <p>(Between 1 and 20)</p>
+            </nav>
+            <br>
+            <h2>Guess My Number!</h2>
+            <div class="center-line">
+                <p class="number">&#63;</p>
+                <hr>
+            </div>
+            <div class="end">
+                <section class="left">
+                    <input type="number"  class="guess" name="number" min="1" max="20">
+                    <br>
+                    <button class="check">Check!</button>
+                </section>
+                <aside>
+                    <p class="message" style="line-height:30px">Start guessing...</p>
+                    <br>
+                    <br>
+                    <br>
+                    <p>💯 Score : 
+                        <span class="score">20</span>
+                    </p>
+                    <br>
+                    <p>🏆 HighScore : 
+                        <span class="highScore">0</span>
+                    </p>
+                </aside>
+            </div>
+        </header>
+
+        <script src="game.js"></script>
+    </body>
+</html>

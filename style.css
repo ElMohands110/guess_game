@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-color: #333;
+    color: #fff;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+button{
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    transition: background-color .5s ease-in-out;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(231, 227, 227);
+}
+nav .again{
+    float: left;
+}
+nav{
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+nav p{
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+header h2{
+    font-size: 55px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+.center-line{
+    margin: 80px 0;
+    position: relative;
+}
+.center-line p{
+    font-size: 55px;
+    background-color: #fff;
+    color: #333;
+    width: 100px;
+    padding: 20px;
+    margin-bottom: -45px;
+    margin-left: 42vw;
+}
+.center-line hr{ 
+    height: 5px;
+    background: #fff;
+    border: none;
+    z-index: -1;
+}
+.end{
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.left{
+    width: 50%;
+    float: left;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+aside{
+    width: 40%;
+    float: right;
+    font-size: 20px;
+}
+.left input{
+    background: none;
+    border: solid 3px #fff;
+    width: 200px;
+    height: 80px;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
